@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aerchain · Kill-the-Quote</title>
+<link rel="stylesheet" href="/ui/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">◆</span>
+    <span class="brand-name">Aerchain</span>
+    <span class="brand-sub">Kill-the-Quote MVP</span>
+  </div>
+  <div class="topmeta">
+    <span class="pill" id="rfx-pill">RFX-001</span>
+    <span class="pill subtle" id="decision-date">—</span>
+    <button id="btn-reset" class="btn ghost">Re-seed data</button>
+    <button id="btn-logout" class="btn ghost" style="display:none">Sign out</button>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="overview">Overview</button>
+  <button class="tab" data-tab="rfx">RFx</button>
+  <button class="tab" data-tab="ingestion">Ingestion</button>
+  <button class="tab" data-tab="comparison">Comparison</button>
+  <button class="tab" data-tab="aerbot">AerBot</button>
+  <button class="tab" data-tab="scenarios">Scenarios</button>
+  <button class="tab" data-tab="award">Award</button>
+  <button class="tab" data-tab="trust">Trust &amp; Evidence</button>
+  <button class="tab" data-tab="settings">Settings</button>
+</nav>
+
+<main id="view"></main>
+
+<script src="/ui/app.js"></script>
+</body>
+</html>

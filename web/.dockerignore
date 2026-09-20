@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/aerchain.db
+data/uploads/*
+data/*.log
+.run/
+.git/
+tmp/

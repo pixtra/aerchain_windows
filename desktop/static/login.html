@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aerchain · Sign in</title>
+<link rel="stylesheet" href="/ui/styles.css" />
+<style>
+  .login-wrap { min-height: 80vh; display: flex; align-items: center; justify-content: center; }
+  .login-card { width: min(380px, calc(100vw - 44px)); text-align: center; }
+  .login-card input { width: 100%; background: var(--panel2); border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 11px 14px; font-size: 14px; margin: 12px 0; }
+  .login-card input:focus { outline: none; border-color: var(--accent2); }
+  #login-err { min-height: 20px; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="logo">◆</span><span class="brand-name">Aerchain</span><span class="brand-sub">Kill-the-Quote MVP</span></div>
+</header>
+<main class="login-wrap">
+  <div class="card login-card">
+    <h2 class="view-title">Sign in</h2>
+    <div class="note">This demo is password-protected. Ask the owner for the access password.</div>
+    <input id="pw" type="password" placeholder="Access password" autocomplete="current-password" />
+    <div><button class="btn primary" id="btn-login" style="width:100%">Sign in</button></div>
+    <div id="login-err" class="note" style="color:var(--bad);margin-top:8px"></div>
+  </div>
+</main>
+<script>
+const next = new URLSearchParams(location.search).get("next") || "/";
+async function go() {
+  const pw = document.getElementById("pw").value;
+  const err = document.getElementById("login-err");
+  err.textContent = "";
+  try {
+    const r = await fetch("/api/auth/login", { method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: pw, next }) });
+    if (!r.ok) { err.textContent = r.status === 401 ? "Wrong password." : "Sign-in failed."; return; }
+    location.href = (await r.json()).next || "/";
+  } catch (_) { err.textContent = "Server unreachable."; }
+}
+document.getElementById("btn-login").onclick = go;
+document.getElementById("pw").onkeydown = (e) => { if (e.key === "Enter") go(); };
+document.getElementById("pw").focus();
+</script>
+</body>
+</html>

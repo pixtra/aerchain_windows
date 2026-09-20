@@ -1,0 +1,5 @@
+fx_rate_id,from_currency,to_currency,fx_rate,status
+FX-INR-1,INR,INR,1.0,ACTIVE
+FX-USD-1,USD,INR,86.5,ACTIVE
+FX-EUR-1,EUR,INR,93.2,ACTIVE
+FX-GBP-1,GBP,INR,108.6,ACTIVE

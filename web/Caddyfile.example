@@ -1,0 +1,14 @@
+# Public hosting front door: automatic HTTPS + the login this app lacks.
+# 1. Point your domain's A record at the VPS, set MY_DOMAIN below.
+# 2. Generate a password hash on the VPS:  caddy hash-password
+# 3. Run: docker run -d -p 80:80 -p 443:443 \
+#     -v $PWD/Caddyfile:/etc/caddy/Caddyfile -v caddy-data:/data \
+#     caddy:2-alpine
+#    (on the same Docker network as the app, or replace app:8000 with the IP)
+
+{$MY_DOMAIN} {
+	basic_auth {
+		{$DEMO_USER} {$DEMO_HASH}
+	}
+	reverse_proxy app:8000
+}

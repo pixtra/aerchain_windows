@@ -1,0 +1,22 @@
+# Aerchain Kill-the-Quote (Groq-only) — persistent hosting (VPS / Fly.io / Render).
+# See DEPLOY.md. Needs a free Groq key (console.groq.com/keys): ~1GB RAM, no model download.
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - aerchain-data:/app/data
+    environment:
+      # Free Groq key — first run saves it into the pool; add more in Settings.
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  aerchain-data:

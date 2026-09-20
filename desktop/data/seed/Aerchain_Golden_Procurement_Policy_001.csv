@@ -1,0 +1,2 @@
+policy_id,organization_id,policy_name,base_currency,annual_financing_rate,baseline_payment_days,tax_treatment,hard_moq_constraint,hard_lead_time_constraint,quality_required_for_award,expired_quote_ineligible,default_award_strategy,status
+POL-001,ORG-001,Global Procurement Policy,INR,0.12,30,EXCLUSIVE,True,True,True,True,LINE_LEVEL_SPLIT,ACTIVE

@@ -1,0 +1,6 @@
+question_id,rfx_id,question_sequence,question_text,response_type,mandatory
+Q1,RFX-001,1,Can you confirm firm delivery by the required delivery date?,DATE / COMMITMENT,True
+Q2,RFX-001,2,Do you meet the required specification/quality standard?,YES / NO / CONDITIONAL,True
+Q3,RFX-001,3,What lead time and monthly capacity can you guarantee?,TEXT,True
+Q4,RFX-001,4,What payment terms do you offer?,TEXT,True
+Q5,RFX-001,5,Are freight charges included or extra?,TEXT,True

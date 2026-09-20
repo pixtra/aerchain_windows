@@ -1,0 +1,241 @@
+coverage_record_id,rfx_id,rfx_line_id,line_number,sku_id,supplier_id,supplier_name,supplier_product_mapping_exists,offer_received
+CV-0001,RFX-001,LF-01,1,SKU-006,SUP-001,PackRight Industries,True,True
+CV-0002,RFX-001,LF-01,1,SKU-006,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0003,RFX-001,LF-01,1,SKU-006,SUP-003,GlobalBox Trading Co,True,True
+CV-0004,RFX-001,LF-01,1,SKU-006,SUP-004,SwiftBox Crafts,True,True
+CV-0005,RFX-001,LF-01,1,SKU-006,SUP-005,EcoPack Solutions,True,True
+CV-0006,RFX-001,LF-01,1,SKU-006,SUP-006,PrimeBox Industries,True,True
+CV-0007,RFX-001,LF-01,1,SKU-006,SUP-007,NovaPaper Mills,True,False
+CV-0008,RFX-001,LF-01,1,SKU-006,SUP-008,Unicarton Exports,True,False
+CV-0009,RFX-001,LF-02,2,SKU-011,SUP-001,PackRight Industries,True,True
+CV-0010,RFX-001,LF-02,2,SKU-011,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0011,RFX-001,LF-02,2,SKU-011,SUP-003,GlobalBox Trading Co,True,True
+CV-0012,RFX-001,LF-02,2,SKU-011,SUP-004,SwiftBox Crafts,True,False
+CV-0013,RFX-001,LF-02,2,SKU-011,SUP-005,EcoPack Solutions,True,True
+CV-0014,RFX-001,LF-02,2,SKU-011,SUP-006,PrimeBox Industries,True,False
+CV-0015,RFX-001,LF-02,2,SKU-011,SUP-007,NovaPaper Mills,True,False
+CV-0016,RFX-001,LF-02,2,SKU-011,SUP-008,Unicarton Exports,True,False
+CV-0017,RFX-001,LF-03,3,SKU-016,SUP-001,PackRight Industries,True,True
+CV-0018,RFX-001,LF-03,3,SKU-016,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0019,RFX-001,LF-03,3,SKU-016,SUP-003,GlobalBox Trading Co,True,False
+CV-0020,RFX-001,LF-03,3,SKU-016,SUP-004,SwiftBox Crafts,True,True
+CV-0021,RFX-001,LF-03,3,SKU-016,SUP-005,EcoPack Solutions,True,False
+CV-0022,RFX-001,LF-03,3,SKU-016,SUP-006,PrimeBox Industries,True,True
+CV-0023,RFX-001,LF-03,3,SKU-016,SUP-007,NovaPaper Mills,True,False
+CV-0024,RFX-001,LF-03,3,SKU-016,SUP-008,Unicarton Exports,True,False
+CV-0025,RFX-001,LF-04,4,SKU-021,SUP-001,PackRight Industries,True,True
+CV-0026,RFX-001,LF-04,4,SKU-021,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0027,RFX-001,LF-04,4,SKU-021,SUP-003,GlobalBox Trading Co,True,True
+CV-0028,RFX-001,LF-04,4,SKU-021,SUP-004,SwiftBox Crafts,True,True
+CV-0029,RFX-001,LF-04,4,SKU-021,SUP-005,EcoPack Solutions,True,True
+CV-0030,RFX-001,LF-04,4,SKU-021,SUP-006,PrimeBox Industries,True,False
+CV-0031,RFX-001,LF-04,4,SKU-021,SUP-007,NovaPaper Mills,True,False
+CV-0032,RFX-001,LF-04,4,SKU-021,SUP-008,Unicarton Exports,True,False
+CV-0033,RFX-001,LF-05,5,SKU-026,SUP-001,PackRight Industries,True,True
+CV-0034,RFX-001,LF-05,5,SKU-026,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0035,RFX-001,LF-05,5,SKU-026,SUP-003,GlobalBox Trading Co,True,True
+CV-0036,RFX-001,LF-05,5,SKU-026,SUP-004,SwiftBox Crafts,True,True
+CV-0037,RFX-001,LF-05,5,SKU-026,SUP-005,EcoPack Solutions,True,True
+CV-0038,RFX-001,LF-05,5,SKU-026,SUP-006,PrimeBox Industries,True,True
+CV-0039,RFX-001,LF-05,5,SKU-026,SUP-007,NovaPaper Mills,True,False
+CV-0040,RFX-001,LF-05,5,SKU-026,SUP-008,Unicarton Exports,True,False
+CV-0041,RFX-001,LF-06,6,SKU-031,SUP-001,PackRight Industries,True,True
+CV-0042,RFX-001,LF-06,6,SKU-031,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0043,RFX-001,LF-06,6,SKU-031,SUP-003,GlobalBox Trading Co,True,True
+CV-0044,RFX-001,LF-06,6,SKU-031,SUP-004,SwiftBox Crafts,True,False
+CV-0045,RFX-001,LF-06,6,SKU-031,SUP-005,EcoPack Solutions,True,False
+CV-0046,RFX-001,LF-06,6,SKU-031,SUP-006,PrimeBox Industries,True,True
+CV-0047,RFX-001,LF-06,6,SKU-031,SUP-007,NovaPaper Mills,True,False
+CV-0048,RFX-001,LF-06,6,SKU-031,SUP-008,Unicarton Exports,True,False
+CV-0049,RFX-001,LF-07,7,SKU-036,SUP-001,PackRight Industries,True,True
+CV-0050,RFX-001,LF-07,7,SKU-036,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0051,RFX-001,LF-07,7,SKU-036,SUP-003,GlobalBox Trading Co,True,True
+CV-0052,RFX-001,LF-07,7,SKU-036,SUP-004,SwiftBox Crafts,True,True
+CV-0053,RFX-001,LF-07,7,SKU-036,SUP-005,EcoPack Solutions,True,True
+CV-0054,RFX-001,LF-07,7,SKU-036,SUP-006,PrimeBox Industries,True,True
+CV-0055,RFX-001,LF-07,7,SKU-036,SUP-007,NovaPaper Mills,True,False
+CV-0056,RFX-001,LF-07,7,SKU-036,SUP-008,Unicarton Exports,True,False
+CV-0057,RFX-001,LF-08,8,SKU-041,SUP-001,PackRight Industries,True,True
+CV-0058,RFX-001,LF-08,8,SKU-041,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0059,RFX-001,LF-08,8,SKU-041,SUP-003,GlobalBox Trading Co,True,True
+CV-0060,RFX-001,LF-08,8,SKU-041,SUP-004,SwiftBox Crafts,True,True
+CV-0061,RFX-001,LF-08,8,SKU-041,SUP-005,EcoPack Solutions,True,False
+CV-0062,RFX-001,LF-08,8,SKU-041,SUP-006,PrimeBox Industries,True,True
+CV-0063,RFX-001,LF-08,8,SKU-041,SUP-007,NovaPaper Mills,True,False
+CV-0064,RFX-001,LF-08,8,SKU-041,SUP-008,Unicarton Exports,False,False
+CV-0065,RFX-001,LF-09,9,SKU-046,SUP-001,PackRight Industries,True,True
+CV-0066,RFX-001,LF-09,9,SKU-046,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0067,RFX-001,LF-09,9,SKU-046,SUP-003,GlobalBox Trading Co,True,True
+CV-0068,RFX-001,LF-09,9,SKU-046,SUP-004,SwiftBox Crafts,True,True
+CV-0069,RFX-001,LF-09,9,SKU-046,SUP-005,EcoPack Solutions,True,True
+CV-0070,RFX-001,LF-09,9,SKU-046,SUP-006,PrimeBox Industries,True,False
+CV-0071,RFX-001,LF-09,9,SKU-046,SUP-007,NovaPaper Mills,True,True
+CV-0072,RFX-001,LF-09,9,SKU-046,SUP-008,Unicarton Exports,False,False
+CV-0073,RFX-001,LF-10,10,SKU-003,SUP-001,PackRight Industries,True,True
+CV-0074,RFX-001,LF-10,10,SKU-003,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0075,RFX-001,LF-10,10,SKU-003,SUP-003,GlobalBox Trading Co,True,True
+CV-0076,RFX-001,LF-10,10,SKU-003,SUP-004,SwiftBox Crafts,True,True
+CV-0077,RFX-001,LF-10,10,SKU-003,SUP-005,EcoPack Solutions,True,True
+CV-0078,RFX-001,LF-10,10,SKU-003,SUP-006,PrimeBox Industries,True,False
+CV-0079,RFX-001,LF-10,10,SKU-003,SUP-007,NovaPaper Mills,True,False
+CV-0080,RFX-001,LF-10,10,SKU-003,SUP-008,Unicarton Exports,True,False
+CV-0081,RFX-001,LF-11,11,SKU-008,SUP-001,PackRight Industries,True,True
+CV-0082,RFX-001,LF-11,11,SKU-008,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0083,RFX-001,LF-11,11,SKU-008,SUP-003,GlobalBox Trading Co,True,True
+CV-0084,RFX-001,LF-11,11,SKU-008,SUP-004,SwiftBox Crafts,True,True
+CV-0085,RFX-001,LF-11,11,SKU-008,SUP-005,EcoPack Solutions,True,False
+CV-0086,RFX-001,LF-11,11,SKU-008,SUP-006,PrimeBox Industries,True,False
+CV-0087,RFX-001,LF-11,11,SKU-008,SUP-007,NovaPaper Mills,True,False
+CV-0088,RFX-001,LF-11,11,SKU-008,SUP-008,Unicarton Exports,True,False
+CV-0089,RFX-001,LF-12,12,SKU-013,SUP-001,PackRight Industries,True,True
+CV-0090,RFX-001,LF-12,12,SKU-013,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0091,RFX-001,LF-12,12,SKU-013,SUP-003,GlobalBox Trading Co,True,True
+CV-0092,RFX-001,LF-12,12,SKU-013,SUP-004,SwiftBox Crafts,True,False
+CV-0093,RFX-001,LF-12,12,SKU-013,SUP-005,EcoPack Solutions,True,False
+CV-0094,RFX-001,LF-12,12,SKU-013,SUP-006,PrimeBox Industries,True,True
+CV-0095,RFX-001,LF-12,12,SKU-013,SUP-007,NovaPaper Mills,True,True
+CV-0096,RFX-001,LF-12,12,SKU-013,SUP-008,Unicarton Exports,True,False
+CV-0097,RFX-001,LF-13,13,SKU-018,SUP-001,PackRight Industries,True,True
+CV-0098,RFX-001,LF-13,13,SKU-018,SUP-002,CorruCore Packaging Ltd,True,False
+CV-0099,RFX-001,LF-13,13,SKU-018,SUP-003,GlobalBox Trading Co,True,True
+CV-0100,RFX-001,LF-13,13,SKU-018,SUP-004,SwiftBox Crafts,True,False
+CV-0101,RFX-001,LF-13,13,SKU-018,SUP-005,EcoPack Solutions,True,True
+CV-0102,RFX-001,LF-13,13,SKU-018,SUP-006,PrimeBox Industries,True,False
+CV-0103,RFX-001,LF-13,13,SKU-018,SUP-007,NovaPaper Mills,True,True
+CV-0104,RFX-001,LF-13,13,SKU-018,SUP-008,Unicarton Exports,True,False
+CV-0105,RFX-001,LF-14,14,SKU-023,SUP-001,PackRight Industries,True,True
+CV-0106,RFX-001,LF-14,14,SKU-023,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0107,RFX-001,LF-14,14,SKU-023,SUP-003,GlobalBox Trading Co,True,True
+CV-0108,RFX-001,LF-14,14,SKU-023,SUP-004,SwiftBox Crafts,True,True
+CV-0109,RFX-001,LF-14,14,SKU-023,SUP-005,EcoPack Solutions,True,True
+CV-0110,RFX-001,LF-14,14,SKU-023,SUP-006,PrimeBox Industries,True,False
+CV-0111,RFX-001,LF-14,14,SKU-023,SUP-007,NovaPaper Mills,True,True
+CV-0112,RFX-001,LF-14,14,SKU-023,SUP-008,Unicarton Exports,True,False
+CV-0113,RFX-001,LF-15,15,SKU-028,SUP-001,PackRight Industries,True,True
+CV-0114,RFX-001,LF-15,15,SKU-028,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0115,RFX-001,LF-15,15,SKU-028,SUP-003,GlobalBox Trading Co,True,True
+CV-0116,RFX-001,LF-15,15,SKU-028,SUP-004,SwiftBox Crafts,True,False
+CV-0117,RFX-001,LF-15,15,SKU-028,SUP-005,EcoPack Solutions,True,False
+CV-0118,RFX-001,LF-15,15,SKU-028,SUP-006,PrimeBox Industries,True,True
+CV-0119,RFX-001,LF-15,15,SKU-028,SUP-007,NovaPaper Mills,True,False
+CV-0120,RFX-001,LF-15,15,SKU-028,SUP-008,Unicarton Exports,True,False
+CV-0121,RFX-001,LF-16,16,SKU-033,SUP-001,PackRight Industries,True,True
+CV-0122,RFX-001,LF-16,16,SKU-033,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0123,RFX-001,LF-16,16,SKU-033,SUP-003,GlobalBox Trading Co,True,True
+CV-0124,RFX-001,LF-16,16,SKU-033,SUP-004,SwiftBox Crafts,True,True
+CV-0125,RFX-001,LF-16,16,SKU-033,SUP-005,EcoPack Solutions,True,True
+CV-0126,RFX-001,LF-16,16,SKU-033,SUP-006,PrimeBox Industries,True,True
+CV-0127,RFX-001,LF-16,16,SKU-033,SUP-007,NovaPaper Mills,True,False
+CV-0128,RFX-001,LF-16,16,SKU-033,SUP-008,Unicarton Exports,True,False
+CV-0129,RFX-001,LF-17,17,SKU-038,SUP-001,PackRight Industries,True,True
+CV-0130,RFX-001,LF-17,17,SKU-038,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0131,RFX-001,LF-17,17,SKU-038,SUP-003,GlobalBox Trading Co,True,False
+CV-0132,RFX-001,LF-17,17,SKU-038,SUP-004,SwiftBox Crafts,True,True
+CV-0133,RFX-001,LF-17,17,SKU-038,SUP-005,EcoPack Solutions,True,False
+CV-0134,RFX-001,LF-17,17,SKU-038,SUP-006,PrimeBox Industries,True,False
+CV-0135,RFX-001,LF-17,17,SKU-038,SUP-007,NovaPaper Mills,True,False
+CV-0136,RFX-001,LF-17,17,SKU-038,SUP-008,Unicarton Exports,True,False
+CV-0137,RFX-001,LF-18,18,SKU-043,SUP-001,PackRight Industries,True,True
+CV-0138,RFX-001,LF-18,18,SKU-043,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0139,RFX-001,LF-18,18,SKU-043,SUP-003,GlobalBox Trading Co,True,False
+CV-0140,RFX-001,LF-18,18,SKU-043,SUP-004,SwiftBox Crafts,True,True
+CV-0141,RFX-001,LF-18,18,SKU-043,SUP-005,EcoPack Solutions,True,False
+CV-0142,RFX-001,LF-18,18,SKU-043,SUP-006,PrimeBox Industries,True,False
+CV-0143,RFX-001,LF-18,18,SKU-043,SUP-007,NovaPaper Mills,True,True
+CV-0144,RFX-001,LF-18,18,SKU-043,SUP-008,Unicarton Exports,False,False
+CV-0145,RFX-001,LF-19,19,SKU-048,SUP-001,PackRight Industries,True,True
+CV-0146,RFX-001,LF-19,19,SKU-048,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0147,RFX-001,LF-19,19,SKU-048,SUP-003,GlobalBox Trading Co,True,True
+CV-0148,RFX-001,LF-19,19,SKU-048,SUP-004,SwiftBox Crafts,True,True
+CV-0149,RFX-001,LF-19,19,SKU-048,SUP-005,EcoPack Solutions,True,True
+CV-0150,RFX-001,LF-19,19,SKU-048,SUP-006,PrimeBox Industries,True,False
+CV-0151,RFX-001,LF-19,19,SKU-048,SUP-007,NovaPaper Mills,True,False
+CV-0152,RFX-001,LF-19,19,SKU-048,SUP-008,Unicarton Exports,False,False
+CV-0153,RFX-001,LF-20,20,SKU-005,SUP-001,PackRight Industries,True,True
+CV-0154,RFX-001,LF-20,20,SKU-005,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0155,RFX-001,LF-20,20,SKU-005,SUP-003,GlobalBox Trading Co,True,True
+CV-0156,RFX-001,LF-20,20,SKU-005,SUP-004,SwiftBox Crafts,True,True
+CV-0157,RFX-001,LF-20,20,SKU-005,SUP-005,EcoPack Solutions,True,False
+CV-0158,RFX-001,LF-20,20,SKU-005,SUP-006,PrimeBox Industries,True,True
+CV-0159,RFX-001,LF-20,20,SKU-005,SUP-007,NovaPaper Mills,True,False
+CV-0160,RFX-001,LF-20,20,SKU-005,SUP-008,Unicarton Exports,True,False
+CV-0161,RFX-001,LF-21,21,SKU-010,SUP-001,PackRight Industries,True,True
+CV-0162,RFX-001,LF-21,21,SKU-010,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0163,RFX-001,LF-21,21,SKU-010,SUP-003,GlobalBox Trading Co,True,True
+CV-0164,RFX-001,LF-21,21,SKU-010,SUP-004,SwiftBox Crafts,True,False
+CV-0165,RFX-001,LF-21,21,SKU-010,SUP-005,EcoPack Solutions,True,False
+CV-0166,RFX-001,LF-21,21,SKU-010,SUP-006,PrimeBox Industries,True,False
+CV-0167,RFX-001,LF-21,21,SKU-010,SUP-007,NovaPaper Mills,True,False
+CV-0168,RFX-001,LF-21,21,SKU-010,SUP-008,Unicarton Exports,True,False
+CV-0169,RFX-001,LF-22,22,SKU-015,SUP-001,PackRight Industries,True,True
+CV-0170,RFX-001,LF-22,22,SKU-015,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0171,RFX-001,LF-22,22,SKU-015,SUP-003,GlobalBox Trading Co,True,True
+CV-0172,RFX-001,LF-22,22,SKU-015,SUP-004,SwiftBox Crafts,True,False
+CV-0173,RFX-001,LF-22,22,SKU-015,SUP-005,EcoPack Solutions,True,True
+CV-0174,RFX-001,LF-22,22,SKU-015,SUP-006,PrimeBox Industries,True,False
+CV-0175,RFX-001,LF-22,22,SKU-015,SUP-007,NovaPaper Mills,True,False
+CV-0176,RFX-001,LF-22,22,SKU-015,SUP-008,Unicarton Exports,True,False
+CV-0177,RFX-001,LF-23,23,SKU-020,SUP-001,PackRight Industries,True,True
+CV-0178,RFX-001,LF-23,23,SKU-020,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0179,RFX-001,LF-23,23,SKU-020,SUP-003,GlobalBox Trading Co,True,True
+CV-0180,RFX-001,LF-23,23,SKU-020,SUP-004,SwiftBox Crafts,True,False
+CV-0181,RFX-001,LF-23,23,SKU-020,SUP-005,EcoPack Solutions,True,True
+CV-0182,RFX-001,LF-23,23,SKU-020,SUP-006,PrimeBox Industries,True,True
+CV-0183,RFX-001,LF-23,23,SKU-020,SUP-007,NovaPaper Mills,True,True
+CV-0184,RFX-001,LF-23,23,SKU-020,SUP-008,Unicarton Exports,True,False
+CV-0185,RFX-001,LF-24,24,SKU-025,SUP-001,PackRight Industries,True,True
+CV-0186,RFX-001,LF-24,24,SKU-025,SUP-002,CorruCore Packaging Ltd,True,False
+CV-0187,RFX-001,LF-24,24,SKU-025,SUP-003,GlobalBox Trading Co,True,True
+CV-0188,RFX-001,LF-24,24,SKU-025,SUP-004,SwiftBox Crafts,True,True
+CV-0189,RFX-001,LF-24,24,SKU-025,SUP-005,EcoPack Solutions,True,False
+CV-0190,RFX-001,LF-24,24,SKU-025,SUP-006,PrimeBox Industries,True,False
+CV-0191,RFX-001,LF-24,24,SKU-025,SUP-007,NovaPaper Mills,True,False
+CV-0192,RFX-001,LF-24,24,SKU-025,SUP-008,Unicarton Exports,True,False
+CV-0193,RFX-001,LF-25,25,SKU-030,SUP-001,PackRight Industries,True,True
+CV-0194,RFX-001,LF-25,25,SKU-030,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0195,RFX-001,LF-25,25,SKU-030,SUP-003,GlobalBox Trading Co,True,False
+CV-0196,RFX-001,LF-25,25,SKU-030,SUP-004,SwiftBox Crafts,True,True
+CV-0197,RFX-001,LF-25,25,SKU-030,SUP-005,EcoPack Solutions,True,False
+CV-0198,RFX-001,LF-25,25,SKU-030,SUP-006,PrimeBox Industries,True,False
+CV-0199,RFX-001,LF-25,25,SKU-030,SUP-007,NovaPaper Mills,True,True
+CV-0200,RFX-001,LF-25,25,SKU-030,SUP-008,Unicarton Exports,True,False
+CV-0201,RFX-001,LF-26,26,SKU-035,SUP-001,PackRight Industries,True,True
+CV-0202,RFX-001,LF-26,26,SKU-035,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0203,RFX-001,LF-26,26,SKU-035,SUP-003,GlobalBox Trading Co,True,False
+CV-0204,RFX-001,LF-26,26,SKU-035,SUP-004,SwiftBox Crafts,True,True
+CV-0205,RFX-001,LF-26,26,SKU-035,SUP-005,EcoPack Solutions,True,True
+CV-0206,RFX-001,LF-26,26,SKU-035,SUP-006,PrimeBox Industries,True,True
+CV-0207,RFX-001,LF-26,26,SKU-035,SUP-007,NovaPaper Mills,True,True
+CV-0208,RFX-001,LF-26,26,SKU-035,SUP-008,Unicarton Exports,True,False
+CV-0209,RFX-001,LF-27,27,SKU-040,SUP-001,PackRight Industries,True,True
+CV-0210,RFX-001,LF-27,27,SKU-040,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0211,RFX-001,LF-27,27,SKU-040,SUP-003,GlobalBox Trading Co,True,True
+CV-0212,RFX-001,LF-27,27,SKU-040,SUP-004,SwiftBox Crafts,True,False
+CV-0213,RFX-001,LF-27,27,SKU-040,SUP-005,EcoPack Solutions,True,True
+CV-0214,RFX-001,LF-27,27,SKU-040,SUP-006,PrimeBox Industries,True,False
+CV-0215,RFX-001,LF-27,27,SKU-040,SUP-007,NovaPaper Mills,True,False
+CV-0216,RFX-001,LF-27,27,SKU-040,SUP-008,Unicarton Exports,True,False
+CV-0217,RFX-001,LF-28,28,SKU-045,SUP-001,PackRight Industries,True,True
+CV-0218,RFX-001,LF-28,28,SKU-045,SUP-002,CorruCore Packaging Ltd,True,True
+CV-0219,RFX-001,LF-28,28,SKU-045,SUP-003,GlobalBox Trading Co,True,False
+CV-0220,RFX-001,LF-28,28,SKU-045,SUP-004,SwiftBox Crafts,True,False
+CV-0221,RFX-001,LF-28,28,SKU-045,SUP-005,EcoPack Solutions,True,True
+CV-0222,RFX-001,LF-28,28,SKU-045,SUP-006,PrimeBox Industries,True,True
+CV-0223,RFX-001,LF-28,28,SKU-045,SUP-007,NovaPaper Mills,True,False
+CV-0224,RFX-001,LF-28,28,SKU-045,SUP-008,Unicarton Exports,False,False
+CV-0225,RFX-001,LF-29,29,SKU-002,SUP-001,PackRight Industries,True,False
+CV-0226,RFX-001,LF-29,29,SKU-002,SUP-002,CorruCore Packaging Ltd,True,False
+CV-0227,RFX-001,LF-29,29,SKU-002,SUP-003,GlobalBox Trading Co,True,False
+CV-0228,RFX-001,LF-29,29,SKU-002,SUP-004,SwiftBox Crafts,True,False
+CV-0229,RFX-001,LF-29,29,SKU-002,SUP-005,EcoPack Solutions,True,False
+CV-0230,RFX-001,LF-29,29,SKU-002,SUP-006,PrimeBox Industries,True,False
+CV-0231,RFX-001,LF-29,29,SKU-002,SUP-007,NovaPaper Mills,True,False
+CV-0232,RFX-001,LF-29,29,SKU-002,SUP-008,Unicarton Exports,True,False
+CV-0233,RFX-001,LF-30,30,SKU-007,SUP-001,PackRight Industries,True,False
+CV-0234,RFX-001,LF-30,30,SKU-007,SUP-002,CorruCore Packaging Ltd,True,False
+CV-0235,RFX-001,LF-30,30,SKU-007,SUP-003,GlobalBox Trading Co,True,False
+CV-0236,RFX-001,LF-30,30,SKU-007,SUP-004,SwiftBox Crafts,True,False
+CV-0237,RFX-001,LF-30,30,SKU-007,SUP-005,EcoPack Solutions,True,False
+CV-0238,RFX-001,LF-30,30,SKU-007,SUP-006,PrimeBox Industries,True,False
+CV-0239,RFX-001,LF-30,30,SKU-007,SUP-007,NovaPaper Mills,True,False
+CV-0240,RFX-001,LF-30,30,SKU-007,SUP-008,Unicarton Exports,True,False

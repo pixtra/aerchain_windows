@@ -1,0 +1,2 @@
+rfx_id,rfx_name,category,organization_id,base_currency,response_deadline,required_delivery_date,award_strategy,quality_required,status
+RFX-001,Corrugated Packaging & Shipping Materials FY26,Corrugated Boxes,ORG-001,INR,2026-09-05,2026-10-15,LINE_LEVEL_SPLIT,True,OPEN

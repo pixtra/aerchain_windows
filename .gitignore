@@ -1,0 +1,17 @@
+# venvs, secrets, local state — never commit
+.venv/
+.env
+data/*.db
+data/uploads/*
+.run/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+Aerchain-*.desktop
+dist/
+build/
+installer-out/
+*Setup.exe
+tess/
+bin/

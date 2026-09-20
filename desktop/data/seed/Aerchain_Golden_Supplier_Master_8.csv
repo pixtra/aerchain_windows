@@ -1,0 +1,9 @@
+supplier_id,supplier_code,supplier_name,supplier_status,default_currency,default_payment_terms,default_payment_days,default_freight_terms,default_lead_time_days,default_quote_validity_days,location
+SUP-001,SUP-A,PackRight Industries,ACTIVE,INR,Net 30,30,INCLUDED,10,45,"Pune, IN"
+SUP-002,SUP-B,CorruCore Packaging Ltd,ACTIVE,INR,Net 60,60,EXTRA_PER_SHIPMENT,12,60,"Chennai, IN"
+SUP-003,SUP-C,GlobalBox Trading Co,ACTIVE,USD,Net 30,30,INCLUDED,14,30,Singapore
+SUP-004,SUP-D,SwiftBox Crafts,ACTIVE,INR,Net 15,15,EXTRA_PER_SHIPMENT,18,45,"Delhi, IN"
+SUP-005,SUP-E,EcoPack Solutions,ACTIVE,INR,Net 30,45,INCLUDED,9,30,"Ahmedabad, IN"
+SUP-006,SUP-F,PrimeBox Industries,ACTIVE,INR,Net 30,30,INCLUDED,11,45,"Hyderabad, IN"
+SUP-007,SUP-G,NovaPaper Mills,ACTIVE,INR,Net 30,30,INCLUDED,15,30,"Kolkata, IN"
+SUP-008,SUP-H,Unicarton Exports,ACTIVE,USD,Net 45,45,EXTRA_PER_SHIPMENT,20,60,Vietnam
