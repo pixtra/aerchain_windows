@@ -12,7 +12,7 @@ no Ollama, no keyless fallback. You need a free Groq key
 
 ```bash
 ./setup.sh     # once: python env, OCR, Groq key, database (no model download)
-./run.sh       # daily: starts everything, opens http://localhost:8000/
+./run.sh       # daily: starts everything, opens http://localhost:8136/ (./run.sh [PORT] to override)
 ./share.sh     # share with someone far away: public HTTPS link (Ctrl-C closes)
 ./package.sh   # hand to another computer: clean tarball, no secrets (they run setup+run)
 ```
@@ -23,7 +23,7 @@ waterfall + evidence, any line for its ranked offers (Esc closes).
 
 ## Same-network access (demo on other devices)
 The server already listens on all interfaces; `run.sh` prints a LAN URL like
-`http://192.168.29.232:8000/` — open it from any device on the same Wi-Fi/LAN.
+`http://192.168.29.232:8136/ (or your port)` — open it from any device on the same Wi-Fi/LAN.
 The model server stays localhost-only by design (browsers never touch it).
 If it doesn't connect: allow the port (`sudo ufw allow 8000/tcp`) and check
 the Wi-Fi has no client isolation. **Warning: there is no login** — anyone on

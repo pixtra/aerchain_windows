@@ -250,8 +250,9 @@ def _mask_key(key: str) -> str:
 
 
 def _key_hint(key: str) -> str:
-    """What the UI may show: key family + last 4, never the secret."""
-    fam = "gsk-" if key.startswith("gsk-") else "key-"
+    """What the UI may show: key family + last 4, never the secret.
+    Real Groq keys start with gsk_ (older ones gsk-)."""
+    fam = "gsk-" if key.startswith("gsk") else "key-"
     return fam + _mask_key(key)
 
 

@@ -156,7 +156,7 @@ class AwardRequest(BaseModel):
 # ------------------------------------------------------------------- health
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "app": "aerchain-ktq"}
+    return {"status": "ok", "app": "aerchain-ktq", "build": "groq-only"}
 
 
 @app.post("/api/system/reset")

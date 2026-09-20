@@ -1670,6 +1670,9 @@ def test_settings_keys_endpoint_roundtrip(monkeypatch, tmp_path):
     from app.aerbot import llm
     _tmp_env(monkeypatch, tmp_path, "")
     monkeypatch.setattr(llm, "validate_groq_key", lambda k: True)
+    for k in ("KTQ_GROQ_KEYS", "KTQ_LLM_URL", "KTQ_LLM_KEY", "KTQ_LLM_MODEL"):
+        monkeypatch.delenv(k, raising=False)
+    llm._ENV_MTIME = None
     c = TestClient(appmain.app, raise_server_exceptions=False)
     assert c.get("/api/settings/provider").json()["groq_keys"] == []
     r = c.post("/api/settings/provider", json={"groq_keys_add": "gsk-live-key-99"})
@@ -1770,3 +1773,18 @@ def test_settings_ui_has_only_keys_and_reset():
                    "settings/access", "provider/test", "groq_keys_order",
                    "draggable"):
         assert banned not in body, f"must not be in Settings: {banned}"
+
+
+def test_key_hint_uses_real_gsk_prefix():
+    from app.aerbot.llm import _key_hint
+    assert _key_hint("gsk_live_abc123") == "gsk-…c123"
+    assert _key_hint("gsk-old-xyz9").startswith("gsk-")
+    assert _key_hint("sk-ant-123456").startswith("key-")
+
+
+def test_health_identifies_groq_build():
+    from fastapi.testclient import TestClient
+    from app import main as appmain
+    c = TestClient(appmain.app, raise_server_exceptions=False)
+    h = c.get("/api/health").json()
+    assert h["build"] == "groq-only"

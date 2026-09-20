@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# Share Aerchain with someone far away: public HTTPS link via Cloudflare.
-# Usage: ./share.sh [PORT]   (app must already run via ./run.sh)
+# Share the GROQ build with someone far away: public HTTPS link via Cloudflare.
+# Usage: ./share.sh [PORT]   (default 8136; the groq app must run via ./run.sh)
+# Refuses to share any other build (e.g. the main app) — sharing the wrong
+# copy is worse than sharing nothing.
 # Ctrl-C closes the link. Anyone with the link can use the app — no login.
 set -euo pipefail
 
@@ -8,13 +10,28 @@ set -euo pipefail
 trap 'ec=$?; case $ec in 0|130|143) ;; *) [ -t 0 ] && { echo; echo "Stopped with an error (exit $ec). Press Enter to close."; read -r _; };; esac' EXIT
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
-PORT="${1:-${PORT:-8000}}"
+PORT="${1:-${PORT:-8136}}"
 BIN="${CLOUDFLARED_BIN:-$HOME/.local/bin/cloudflared}"
 export PATH="$HOME/.local/bin:$PATH"
 
 die() { echo "ERROR: $*"; exit 1; }
-curl -s -m 3 "http://127.0.0.1:$PORT/api/health" >/dev/null 2>&1 \
-  || die "app isn't running on :$PORT — start it first: ./run.sh $PORT"
+
+is_groq_build() {  # $1 = port; true only if the groq-only build answers there
+  curl -s -m 3 "http://127.0.0.1:$1/api/health" 2>/dev/null | grep -q "groq-only"
+}
+
+if ! is_groq_build "$PORT"; then
+  if curl -s -m 3 "http://127.0.0.1:$PORT/api/settings/provider" 2>/dev/null \
+      | grep -q "Local model"; then
+    die "port $PORT serves the MAIN app (it has a Local model), not the groq build. Start the groq app (./run.sh 8136) and share that: ./share.sh 8136"
+  fi
+  for p in 8136 8137 8000 8001 8002; do
+    if [ "$p" != "$PORT" ] && is_groq_build "$p"; then
+      die "no groq app on :$PORT — but one answers on :$p. Run: ./share.sh $p"
+    fi
+  done
+  die "no groq app on :$PORT — start it first: ./run.sh $PORT"
+fi
 
 if [ ! -x "$BIN" ]; then
   echo "Fetching cloudflared (one time, no root)…"

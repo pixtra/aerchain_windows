@@ -10,7 +10,7 @@ trap 'ec=$?; case $ec in 0|130|143) ;; *) [ -t 0 ] && { echo; echo "Stopped with
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 HEADLESS="${HEADLESS:-0}"
 if [ "${1:-}" = "--headless" ]; then HEADLESS=1; shift; fi
-PORT="${1:-${PORT:-8000}}"
+PORT="${1:-${PORT:-8136}}"
 RUNDIR="$ROOT/.run"
 PIDFILE="$RUNDIR/uvicorn-$PORT.pid"
 
